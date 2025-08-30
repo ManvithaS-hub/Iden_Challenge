@@ -57,19 +57,19 @@ It is designed to handle dynamically loaded tables, collect relevant product inf
 git clone https://github.com/YourUsername/Iden_Challenge.git
 cd Iden_Challenge
 
-### 2. Install Dependencies
+2. Install Dependencies
 ```pip install -r requirements.txt
 playwright install
 
-### 3. Add Credentials
+3. Add Credentials
 Create a .env file in the root folder:
 ```IDEN_EMAIL=your_email
 IDEN_PASSWORD=your_password
 
-### 4. Run the automation script:
+ 4. Run the automation script:
 ```python automate.py
 
-### 5. 📂 Project Structure
+ 5. 📂 Project Structure
 ```Iden_Challenge/
 ├── automate.py        # Main automation script
 ├── .env               # Environment variables (ignored)
